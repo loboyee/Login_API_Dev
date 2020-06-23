@@ -42,7 +42,7 @@ public class Main {
     }
 
     private static URI createUri() {
-        StringBuffer sb = new StringBuffer("http://0.0.0.0:").append(getPort());
+        StringBuffer sb = new StringBuffer("http://0.0.0.0:8095");
 
         try {
             return new URI(sb.toString());

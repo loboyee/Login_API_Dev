@@ -6,7 +6,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 
 @Path("Username")
-public class DataApi {
+public class API {
     private static final Gson GSON = new Gson();
 
     @POST

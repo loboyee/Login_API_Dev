@@ -1,6 +1,6 @@
 package tw.kewang.testserver;
 
-import tw.kewang.testserver.api.DataApi;
+import tw.kewang.testserver.api.API;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,7 +12,7 @@ public class ServerApplication extends Application {
 	public Set<Class<?>> getClasses() {
 		Set<Class<?>> restServiceSet = new HashSet<Class<?>>();
 
-		restServiceSet.add(DataApi.class);
+		restServiceSet.add(API.class);
 
 		return restServiceSet;
 	}
